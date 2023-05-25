@@ -2,10 +2,10 @@ all:
 
 .PHONY: all clean
 
+ifeq ($(wildcard src/.),)
+
 src:
 	git clone https://github.com/aitap/nodepool $@
-
-ifeq ($(wildcard src/.),)
 
 # Cannot set $(PACKAGE) without having cloned the repo
 # (thankfully, this is needed only once)
