@@ -1,0 +1,7 @@
+Package: nodepool
+Version: 0.1.0.9999
+Depends: R (>= 4.0)
+Imports: methods
+License: AGPL-3
+MD5sum: 72f08cb05a4e7d028c02550571965eec
+NeedsCompilation: no
